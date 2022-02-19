@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Verifier.Domain.Entitites
+namespace Verifier.Application.Interfaces.Services.User
 {
-    public class VerifierUser
+    public interface ICurrentUserService
     {
+        string UserId { get; }
     }
+    
 }
